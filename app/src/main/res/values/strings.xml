@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TSWC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="donations">Donations</string>
+    <string name="events">Events</string>
+    <string name="ministries">Ministries</string>
+    <string name="services">Services</string>
+    <string name="newsletter">Newsletter</string>
+    <string name="social">Social</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">Youtube</string>
+</resources>
