@@ -15,6 +15,34 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
+        <EditText
+            android:id="@+id/emailTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="To" />
+
+        <EditText
+            android:id="@+id/emailSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject" />
+
+        <EditText
+            android:id="@+id/emailBody"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:hint="Message" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Send Feedback"
+            android:textSize="12sp" />
+
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"

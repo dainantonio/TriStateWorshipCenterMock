@@ -15,6 +15,115 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Sunday School 9:30am"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/Text6"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Sunday Church Services 10:30am"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/Text7"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Sunday Evening 6:00pm "
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/Text8"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Wednesday Evening 7:00pm"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="normal"
+                    tools:ignore="HardcodedText,SmallSp" />
+
+
+                <TextView
+                    android:id="@+id/Text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:paddingTop="10dp"
+                    android:text="1-740-523-0231"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="normal"
+                    tools:ignore="SmallSp" />
+
+
+                <TextView
+                    android:id="@+id/Text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"
+                    android:layout_weight="1"
+                    android:autoLink="map"
+                    android:clickable="true"
+                    android:fontFamily="serif"
+
+                    android:text="901 Solida Road South Point, OH 45680"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="normal"
+                    tools:ignore="SmallSp" />
+
+
+                <TextView
+                    android:id="@+id/weblink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:clickable="true"
+                    android:fontFamily="serif"
+                    android:text="www.tswc.org"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"

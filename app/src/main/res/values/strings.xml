@@ -16,4 +16,23 @@
     <string name="facebook">Facebook</string>
     <string name="twitter">Twitter</string>
     <string name="youtube">Youtube</string>
+
+    <!--ABOUT US ACTIVITY-->
+    <string name="_8_properties">8. Properties</string>
+    <string name="properties_detail">It is our vision to acquire property to have simple and functional buildings for worship, education, and ministry to the whole person.</string>
+    <string name="_7_family_ministry">7. Family Ministry</string>
+    <string name="terry_and_vicki">Pastor Terry and Vicki Wagner</string>
+    <string name="_2_worship">2. Worship</string>
+    <string name="worship_details">It is our vision to be a place where people genuinely interact with God in dynamic corporate worship, and as a result, experience tangible life change.</string>
+    <string name="_3_love">3. Love</string>
+    <string name="_4_discipleship">4. Discipleship</string>
+    <string name="love_details">It is our vision to be a truly loving church. We will demonstrate that we are true Followers of Christ by loving in deed both those who are a part of this fellowship and those who are outside of this fellowship in the community.</string>
+    <string name="discipleship_details">It is our vision to help people experience true-life change by growing towards spiritual maturity through preaching/teaching, small groups, classes, seminars, and retreats.</string>
+    <string name="_5_leadership_development">5. Leadership Development</string>
+    <string name="leadership_details">It is our vision to be a place where each person is equipped to serve others and be a reproducing spiritual leader.</string>
+    <string name="_6_missions">6. Missions</string>
+    <string name="mission_detail_1">It is our vision to be a church that gives birth to other churches.</string>
+    <string name="mission_details_2">It is our vision to be a church that sends out ministers all over the world.</string>
+    <string name="fam_ministry_detail_1">It is our vision to be a church with an emphasis on building up families that equips couples to build godly marriages and raise their children according to biblical principles.</string>
+    <string name="fam_ministry_detail_2">It is our vision to be a church that has top-notch youth and children’s ministries.</string>
 </resources>
