@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dainr.tristateworshipcentermock">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".dummy.Ministries"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -17,6 +20,9 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="message/rfc822" />
             </intent-filter>
         </activity>
         <activity
@@ -31,18 +37,16 @@
             android:name=".EventsActivity"
             android:label="@string/events"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".NewsletterActivity"
             android:label="@string/newsletter"
             android:theme="@style/AppTheme.NoActionBar" />
 
+
         <activity
             android:name=".ServicesActivity"
             android:label="@string/services"
-            android:theme="@style/AppTheme.NoActionBar" >
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

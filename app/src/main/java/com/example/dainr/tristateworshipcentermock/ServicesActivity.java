@@ -1,19 +1,19 @@
 package com.example.dainr.tristateworshipcentermock;
 
-import android.app.Service;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v7.app.ActionBar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.dainr.tristateworshipcentermock.dummy.Ministries;
 
 public class ServicesActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -95,7 +95,7 @@ public class ServicesActivity extends AppCompatActivity
                 startActivity(intent);
                 break;
             case R.id.nav_ministries:
-                intent = new Intent(ServicesActivity.this, MinistriesFragment.class);
+                intent = new Intent(ServicesActivity.this, Ministries.class);
                 startActivity(intent);
                 break;
             case R.id.nav_services:

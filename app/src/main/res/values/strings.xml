@@ -35,4 +35,11 @@
     <string name="mission_details_2">It is our vision to be a church that sends out ministers all over the world.</string>
     <string name="fam_ministry_detail_1">It is our vision to be a church with an emphasis on building up families that equips couples to build godly marriages and raise their children according to biblical principles.</string>
     <string name="fam_ministry_detail_2">It is our vision to be a church that has top-notch youth and children’s ministries.</string>
+    <string name="weekly_service_schedule">WEEKLY SERVICE SCHEDULE</string>
+    <string name="sunday_school">Sunday School</string>
+    <string name="sunday_school_9_30am">Sunday School : 9:30am</string>
+    <string name="sunday_church_services">Sunday Church Services</string>
+    <string name="sunday_church_services_10_30am">Sunday Church Services : 10:30am</string>
+    <string name="sunday_evening_6_00pm">Sunday Evening : 6:00pm.
+        (Prayer time</string>
 </resources>

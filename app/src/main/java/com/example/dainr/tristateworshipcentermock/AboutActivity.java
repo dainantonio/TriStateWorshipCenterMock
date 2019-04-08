@@ -3,16 +3,17 @@ package com.example.dainr.tristateworshipcentermock;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v7.app.ActionBar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.dainr.tristateworshipcentermock.dummy.Ministries;
 
 public class AboutActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -41,6 +42,7 @@ public class AboutActivity extends AppCompatActivity
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
+
 
     @Override
     public void onBackPressed() {
@@ -94,7 +96,7 @@ public class AboutActivity extends AppCompatActivity
                 startActivity(intent);
                 break;
             case R.id.nav_ministries:
-                intent = new Intent(AboutActivity.this, MinistriesFragment.class);
+                intent = new Intent(AboutActivity.this, Ministries.class);
                 startActivity(intent);
                 break;
             case R.id.nav_services:

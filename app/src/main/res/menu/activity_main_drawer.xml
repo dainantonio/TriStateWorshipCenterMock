@@ -11,7 +11,7 @@
             android:title="@string/about_us" />
         <item
             android:id="@+id/nav_donations"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
             android:title="@string/donations" />
         <item
             android:id="@+id/nav_events"
@@ -24,7 +24,7 @@
 
         <item
             android:id="@+id/nav_services"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_access_time_black_24dp"
             android:title="@string/services" />
 
         <item
@@ -33,19 +33,20 @@
             android:title="@string/newsletter" />
     </group>
 
+
     <item android:title="@string/social">
         <menu>
             <item
                 android:id="@+id/nav_facebook"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/ic_facebook"
                 android:title="@string/facebook" />
             <item
                 android:id="@+id/nav_twitter"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_twitter"
                 android:title="@string/twitter" />
             <item
                 android:id="@+id/nav_youtube"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/ic_youtube"
                 android:title="@string/youtube" />
 
         </menu>
